@@ -1,0 +1,89 @@
+a,
+.base-text-color,
+#navigation li.current > a,
+#navigation li:hover > a,
+.link-wrap a:hover i
+{
+	color: #297DA1;
+}
+
+.base-bg-color,
+.more-btn:hover i,
+form input[type=submit]:hover,
+.owl-dot.active span,
+.owl-dot:hover span,
+.post-item__description:after,
+.social-item,
+#menu-tog span:before,
+#menu-tog span:after,
+#navigation a:after,
+.accordion .tog.current,
+#vegas-prev:hover,
+#vegas-next:hover,
+.vegas-dots a.active,
+.vegas-dots a:hover
+{
+	background-color: #FFF;
+}
+
+.base-bg-color_light,
+.tabs li.current a
+{
+	background-color: #FFF;
+}
+
+.base-border-color,
+#pagination a.current,
+#pagination a:hover,
+#option-set a.selected,
+#option-set a:hover,
+form input[type=submit]:hover,
+.post-item__link_video span:after,
+.small-video-btn:hover:after
+{
+	border-color: #AEC3E0;
+}
+
+.vegas-dots a.active:before,
+.vegas-dots a:hover:before
+{
+	-webkit-box-shadow: 0 0 0 2px #297DA1;
+	-moz-box-shadow: 0 0 0 2px #297DA1;
+	box-shadow: 0 0 0 2px #297DA1;
+}
+
+#logo { background-image: url(../../images/logo_3.png); }
+#about { background-image: url(../../images/about_bg_3.jpg); }
+.testimonial-slider { background-image: url(../../images/testimonial_bg_3.png); }
+
+.intro-fullwidth__with-bg #intro-media:before { background-color: #FFF; }
+
+.social-container [class*=" col-"]:first-child + div .social-item,
+.social-container [class^="col-"]:first-child + div .social-item
+{
+	background-color: #c681bd;
+}
+
+@media only screen and (max-width:767px), screen and (max-device-width:767px) {
+
+	#navigation li.current > a,
+	#navigation li a:hover,
+	#navigation .submenu a:hover,
+	#navigation .submenu a.current
+	{
+		background-color: #FFF;
+		color: #fff;
+	}
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+		.testimonial-slider
+		{
+			background-size: 44px 31px;
+			background-image: url(../../images/testimonial_bg_3@2x.png);
+		}
+	}

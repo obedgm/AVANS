@@ -1,0 +1,119 @@
+.settings_box
+{
+	position: fixed;
+	top: 200px;
+	width: 231px;
+	z-index: 11;
+	padding: 0 20px 30px 30px;
+	background: #ffffff;
+	border-right: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca; 
+}
+
+#box-title
+{
+	background-color: #3c3c3c;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #ffffff;
+	height: 50px;
+	padding-left: 30px;
+	margin-left: -30px;
+	margin-right: -20px;
+}
+
+#panel_toggler
+{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 0px;
+	left: 100%;
+	background-color: #3c3c3c;
+	text-align: center;
+}
+
+#panel_toggler:before,
+#panel_toggler img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#panel_toggler:before
+{
+	content: "";
+	height: 100%;
+	margin-left: -4px;
+}
+
+#panel_toggler + p
+{
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 600;
+	color: #353535;
+	margin-top: 24px;
+}
+
+#colors
+{
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
+	margin: 20px 0 20px -4px;
+}
+
+#colors a
+{
+	display: inline-block;
+	font-size: 1px;
+	letter-spacing: 0;
+	margin-left: 4px;
+	vertical-align: top;
+	line-height: 20px;
+	height: 27px;
+	width: 27px;
+	margin-bottom: 5px;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-transition: -webkit-transform 300ms ease-in-out;
+	-moz-transition: -moz-transform 300ms ease-in-out;
+	-ms-transition: -ms-transform 300ms ease-in-out;
+	-o-transition: -o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out;
+}
+
+#colors a:hover,
+#colors a.current
+{
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-ms-transform: scale(0.75);
+	-o-transform: scale(0.75);
+	transform: scale(0.75);
+}
+
+#color-1 { background-color: #369670; }
+#color-2 { background-color: #3e81b5; }
+#color-3 { background-color: #ae79a7; }
+#color-4 { background-color: #e67c70; }
+#color-5 { background-color: #f48d1f; }
+#color-6 { background-color: #88b89b; }
+
+#box-text
+{
+	line-height: 1.2;
+	font-size: 13px;
+	color: #353535;
+}
+
+#box-text p:first-child
+{
+	color: #000000;
+	font-weight: 600;
+}
