@@ -37,6 +37,12 @@ TABLE OF CONTENTS:
 
 /* font-family: 'Titillium Web', sans-serif; */
 
+.item-title{
+    align-content: center;
+    font-weight: 100;
+    line-height: inherit;
+}
+
 *
 {
 	margin: 0;
@@ -493,7 +499,7 @@ iframe
 
 #intro-fullscreen { min-height: 600px; }
 
-#intro-fullwidth { height: 510px; }
+#intro-fullwidth { height: 100%; }
 
 #intro-media
 {
@@ -719,7 +725,6 @@ iframe
 .intro-section .inner p
 {
 	font-size: 16px;
-	margin: 10px 0 20px;
 }
 
 .link-wrap { position: relative; }
@@ -2100,10 +2105,7 @@ iframe
 
 .logos-carousel {}
 
-.logos-carousel .slide
-{
-	border: 1px solid rgba(181,181,181,0.5);
-	border: 1px solid #b5b5b5; }
+
 
 .logos-carousel img
 {
@@ -2521,12 +2523,17 @@ footer .widget li:before
     padding-top: 40px; 
 }
 
+
 .project-info .project-content { padding-top: 20px; }
 
 #content-container h2
 {
-	line-height: 1;
+	line-height: 2;
 	margin: -5px 0 20px;
+}
+
+.map-info {
+    padding-top: 320px;
 }
 
 .project-info p,
@@ -2805,12 +2812,20 @@ footer .widget li:before
 19 Map
 -------------------------------- */
 #container-map {
-    width: 250px;
+    width: 100%;
     height: 350px;
-    border: 3px solid grey;
+    border: 3px;
     border-radius: 3px;
 }
 .map 
+{
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	background-color: #303030;
+}
+
+.maps
 {
 	height: 400px;
 	position: relative;

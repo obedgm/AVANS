@@ -454,6 +454,7 @@ function g_map ()
 			},
 			position: latlng
 		});
+        
 
 		google.maps.event.addDomListener(window, "resize", function() {
 			var center = map.getCenter();
@@ -462,6 +463,7 @@ function g_map ()
 		});
 	});
 };
+
 
 /* tabs
 ================================================== */
@@ -737,7 +739,8 @@ $(document).ready(function(){
 	/* google map
 	================================================== */
 	run(g_map);
-
+    
+    run(initMap);
 	/* tabs
 	================================================== */
 	run(tabs);
