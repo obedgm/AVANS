@@ -38,9 +38,18 @@ TABLE OF CONTENTS:
 /* font-family: 'Titillium Web', sans-serif; */
 
 .item-title{
-    align-content: center;
-    font-weight: 100;
-    line-height: inherit;
+    text-align: center;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 1;
 }
 
 *
