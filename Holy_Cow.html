@@ -135,7 +135,8 @@
 									<p class="project-title">Monterrey || Nuevo León</p>
 
 									<ul class="tags-list">
-                                        <li><a href="#">Aqui va la dirección</a></li>
+                                        <li><a href="https://goo.gl/maps/1zzpNzdX1PU2">Av. Diego Rivera 1000<br>Zona San Agustín<br>San Pedro, Garza García
+                                            </a></li>
 									</ul>
 								</li>
 
@@ -178,11 +179,41 @@
 								Nullam interdum orci quis arcu auctor mollis in ac est. In eleifend leo ut nibh lobortis, in auctor odio aliquet. Morbi suscipit lacinia est, quis feugiat odio. Maecenas eget ex sit amet orci condimentum vehicula nec euismod mi. Nunc gravida ex sed enim congue iaculis. Nulla ullamcorper nunc nec turpis bibendum, ut tincidunt neque pretium.
 							</p>
                             <p>&nbsp;</p>
-                            <h2>Location</h>
+                            <h2>Location</h2>
                             
                                 <section id="map" class="map" data-marker="images/marker.png"></section>
 						</div>
 					</div>
+                        
+                        <aside id="sidebar" class="map-info-below">
+                            <h2>Dirección</h2>
+
+							<ul>
+								<li>
+									<p class="project-title">Monterrey || Nuevo León</p>
+
+									<ul class="tags-list">
+                                        <li><a href="https://goo.gl/maps/1zzpNzdX1PU2">Av. Diego Rivera 1000<br>Zona San Agustín<br>San Pedro, Garza García
+                                            </a></li>
+									</ul>
+								</li>
+
+								<li>
+									<p class="project-title">Cliente</p>
+
+									<p>Nombre del cliente</p>
+								</li>
+
+								<li>
+									<p class="project-title">Fecha del Projecto</p>
+
+									<p>2013</p>
+
+
+								</li>
+							</ul>
+						</aside>
+                        
 				</div>
 			</div>
 		</section>
@@ -285,7 +316,7 @@
         //data-longitude="25.6613241" data-latitude="-100.2996392" --->
         
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 25.6613241, lng: -100.2996392},
+          center: {lat: 25.6498521, lng: -100.3345895},
           zoom: 14,
           styles: [{
                 stylers: [{
@@ -295,7 +326,7 @@
           ]
         });
           
-        var latlng = {lat: 25.6613241, lng: -100.2996392};
+        var latlng = {lat: 25.6498521, lng: -100.3345895};
 
 		var marker = new google.maps.Marker({
 			map: map,
