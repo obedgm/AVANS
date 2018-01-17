@@ -74,18 +74,6 @@ function s_vegas ()
 	}, {
 		name: "People are awesome 3",
 		src: 'images/dome.jpg'
-	}, {
-		name: "People are awesome 4",
-		src: 'video/ocean.jpg',
-		video: {
-			src: [
-				'video/ocean.mp4',
-				'video/ocean.webm',
-				'video/ocean.ogv'
-			],
-			loop: false,
-			mute: true
-		}
 	}];
 
 	var slides_2 = [{

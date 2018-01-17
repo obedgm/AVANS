@@ -315,4 +315,23 @@
     }
 }
 
+@media screen and (min-width: 511px){
+    .intro_img{
+        display: inline-block;
+    }
+    .intro_img.mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px){
+
+    .intro_img.mobile{
+        display: inline-block;
+    }
+    .intro_img{
+        display: none;
+    }
+}
+
 
