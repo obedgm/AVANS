@@ -2895,6 +2895,122 @@ footer .widget li:before
     display: block;
 }
 
+.container-elevador{
+    padding: 90px 0 90px 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
 
+.contenedor-texto{
+    width: 50%;
+    float: left;
+}
 
+.contenedor-texto span{
+    font-size: 17px;
+    color: #152a41;
+    line-height: 1.1;
+}
 
+.contenedor-texto h1{
+    color: #1f406d;
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.contenedor-texto h2{
+    font-size: 30px;
+    color: #676666;
+}
+
+.contenedor-texto h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #4e4e4e;
+    margin: 60px 0 30px 0;
+}
+
+.contenedor-texto ul li{
+    font-size: 14px;
+    color: #676666;
+    font-family: 'Montserrat';
+    margin: 5px 0 5px 0;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.aplicaciones{
+    height: 450px;
+    padding: 60px 0 60px 0;
+}
+
+.container-aplicaciones{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aplicaciones-title h2{
+    text-align: center;
+    color: #676666;
+    font-size: 34px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.aplicaciones-col{
+    width: 33.3333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+.aplicaciones figure{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aplicaciones h5::before{
+    height: 5px;
+    width: 100px;
+    content: '';
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #5097f7, #3739bc);
+}
+
+.aplicaciones h5{
+    font-family: 'Montserrat';
+    color: #4e4e4e;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.caracteristicas-banner{
+    background-color: #e5e5e5;
+    background: url(../images/caracteristicas-cuarto-maquina.jpg) no-repeat;
+    background-position: left;
+    width: auto;
+    height: 590px;
+    width: auto;
+}
+
+.caracteriticas-container{
+    padding: 120px 0 90px 0;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}

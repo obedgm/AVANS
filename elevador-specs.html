@@ -27,6 +27,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,600,300' rel='stylesheet' type='text/css'>
 		<!-- / settings_box -->
 		<link rel="stylesheet" href="settings_box/settings_box.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">
 
 		<!-- Load jQuery
 		================================================== -->
@@ -77,12 +78,94 @@
         
         
         <section id="image-specs" class="image-section">
-            <div class="banner-elevador"></div>
+            <div class="banner-elevador">
+                <div class="container-elevador">
+                    <div class="row" style="margin-left: -15px; margin-right: -15px;">
+                        <div class="contenedor-texto" style="font-family: Montserrat, sans-serif; font-weight: 200;">
+                            <span>Elevador comercial</span>
+                            <h1 style="font-family: Montserrat, sans-serif; font-weight: 700;">
+                                    Con cuarto
+                                <br>
+                                    de máquina
+                            </h1>
+                            
+                            <h2>
+                                Elevadores recomendados en edificios donde es factible colocar un cuarto de máquinas en la azotea del edificio
+                            
+                            </h2>
+                            
+                            <h3>
+                                Características: 
+                            </h3>
+                            
+                            <ul style="padding-left: 40px;">
+                                <li>Son utilizados cuando la velocidad es mayor a 2.25m/s</li>
+                                <li>Usados en edificios con recorridos express.</li>
+                                <li>Equipos utilizados para servicio VIP.</li>
+                                <li>Requiere de una&nbsp;construcción&nbsp;para alojar la máquina y el controlador en el techo del cubo del elevador.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+            <div class="aplicaciones">
+                <div class="container-aplicaciones">
+                    <div class="row" style="margin-left: -15px; margin-right: -15px;">
+                        <div class="aplicaciones-title" style="width: 100%;"> 
+                            <h2>Aplicaciones</h2>
+                        </div>    
+                        <div class="aplicaciones-col">
+                            <figure>
+                                <img src="images/i-aplicaciones.png">
+                            </figure>
+                            <h5>
+                                
+                                Edificios, oficinas
+                                <br>
+                                corporativas y comerciales
+                            </h5>
+                        </div>
+                        <div class="aplicaciones-col">
+                            <figure>
+                                <img src="images/i-aplicaciones2.png">
+                            </figure>
+                            <h5>
+                                
+                                Edificios de mediana
+                                <br>
+                                y gran altura
+                            </h5>
+                        </div>
+                        <div class="aplicaciones-col">
+                            <figure>
+                                <img src="images/i-aplicaciones3.png">
+                            </figure>
+                            <h5>
+                                Edificios de departamentos
+                                <br>
+                                y habitacional
+                            </h5>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
             
+             <div class="caracteristicas-banner">
+                <div class="container-elevador">
+                    <div class="caracteristicas-container">
+                        <div class="row" style="margin-left: -15px; margin-right: -15px;"></div>
+                    </div>
+                </div>
         
         
         
+        
+        
+        
+            </div>
+            
         </section>
     
     
@@ -108,5 +191,12 @@
 		<script type="text/javascript" src="js/jquery.main.js"></script>
 		<!-- / settings_box -->
 		<script type="text/javascript" src="settings_box/settings_box.js"></script>
-    
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+            window.sr = ScrollReveal({reset : true});
+            sr.reveal('.aplicaciones-title', {duration: 1200, delay: 200});
+            sr.reveal('.aplicaciones-col', {duration: 1200, delay: 200});
+        
+        
+        </script>
     </body>

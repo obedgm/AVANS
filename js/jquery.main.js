@@ -818,5 +818,5 @@ $(document).ready(function(){
         player.stopVideo();
       }
 
-
-
+window.sr = ScrollReveal();
+sr.reveal('.aplicaciones-title');
